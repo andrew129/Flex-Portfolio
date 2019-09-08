@@ -146,11 +146,12 @@ input[type=submit] {
     background-image: linear-gradient(rgb(75, 75, 204), rgb(96, 123, 190));
     padding: 10px 20px 10px 20px;
     color: white;
-    font-size: 15px;
+    font-size: 21px;
     margin-top: 10px;
     margin-left: 10px;
     margin-bottom: 10px;
     color: black;
+    width: 97%;
 }
 
 input[type=submit]:hover {
