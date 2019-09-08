@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="assets/contact.css">
+    <script src="https://use.fontawesome.com/e768a315de.js"></script>
+</head>
+<body>
+    <header class='header'>
+        <div class='title'>
+            <h1 id='name'>Andrew Stiles</h1>
+            <p id='position'>Web Developer</p>
+        </div>
+        <ul class='navigation'>
+            <li><a href="./index.html">About</a></li>
+            <li><a href="./portfolio.html">Portfolio</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+            <li><a target="blank" href="Andrews Resume.pdf">Resume</a></li>
+        </ul>
+        <div class='links'>
+            <p id='sites'>Check Out my Sites</p>
+            <div class='icons'>
+                <i href="https://github.com/andrew129" id="git" class="fa fa-2x fa-github" aria-hidden="true"></i>
+                <i class="fa fa-2x fa-linkedin-square" aria-hidden="true"></i>
+                <i class="fas fa-2x fa-envelope-square"></i>
+            </div>
+        </div>
+    </header>
+    <div class='main-content'>
+        <h1 id='contact'>Contact Me</h1>
+        <form action='action_page.php'>
+            <label for='name'>Name:</label>
+            <input type='text' id='yourname' name='name' placeholder="Your Name..">
+
+            <label for='email'>Email:</label>
+            <input type='text' id='email' name='email' placeholder="example@gmail.com">
+            
+            <label for='message'>Message:</label>
+            <textarea type='text' id='message' name='message' placeholder="Write something here...">
+
+            </textarea>
+
+            <input type='submit' id='submit' value='submit'>
+
+        </form>
+    </div>
+    <footer>
+        <p id='copyright'>© Copyright 2019 Andrew Stiles</p>
+    </footer>
+</body>
+</html>
