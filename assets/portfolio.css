@@ -176,6 +176,19 @@ img {
     position: relative;
     left: 2px;
     bottom: 2px;
+    -webkit-transition: all 0.50s;
+    transition: all 0.50s;
+}
+
+img:hover {
+    border: 1px solid gray;
+    filter: brightness(140%);
+    -webkit-filter: brightness(140%);
+    -moz-filter: brightness(140%);
+    -o-filter: brightness(140%);
+    -ms-filter: brightness(140%);
+    -webkit-transition: all 0.50s;
+    transition: all 0.50s;
 }
 
 .work {
